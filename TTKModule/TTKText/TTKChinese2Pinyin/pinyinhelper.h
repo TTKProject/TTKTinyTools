@@ -3,7 +3,7 @@
 
 /* =================================================
  * This file is part of the TTK Tiny Tools project
- * Copyright (C) 2015 - 2019 Greedysky Studio
+ * Copyright (C) 2015 - 2020 Greedysky Studio
 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -114,8 +114,8 @@ private:
     QStringList convertWithoutTone(QString pinyinArrayString);
 
     ChineseHelper m_chineseHelper;
-    MStringMap m_pinyinTable;
-    MStringMap m_mutliPinyinTable;
+    TTKStringMap m_pinyinTable;
+    TTKStringMap m_mutliPinyinTable;
     QString m_pinyinSeparator;   // = ",";
     QChar m_chineseLing;         // = '〇';
     QString m_allUnmarkedVowel;  // = "aeiouv";

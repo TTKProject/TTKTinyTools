@@ -3,7 +3,7 @@
 
 /* =================================================
  * This file is part of the TTK Tiny Tools project
- * Copyright (C) 2015 - 2019 Greedysky Studio
+ * Copyright (C) 2015 - 2020 Greedysky Studio
 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,21 +31,21 @@ class TTK_CORE_EXPORT PinyinResource
 {
 public:
 
-    static MStringMap getPinyinResource();
+    static TTKStringMap getPinyinResource();
     /*!
      * Get mutil pinyin resource.
      */
-    static MStringMap getMutilPinyinResource();
+    static TTKStringMap getMutilPinyinResource();
     /*!
      * Get chinese resource.
      */
-    static MStringMap getChineseResource();
+    static TTKStringMap getChineseResource();
 
 private:
     /*!
      * Get resource.
      */
-    static MStringMap getResource(const QString &resourceName);
+    static TTKStringMap getResource(const QString &resourceName);
 
 };
 
