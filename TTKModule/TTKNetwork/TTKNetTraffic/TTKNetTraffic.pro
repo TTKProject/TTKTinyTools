@@ -18,8 +18,7 @@
 
 include($$PWD/../../../TTKTinyTools.pri)
 
-win32:TARGET = ../../../../bin/$$TTKTinyTools/TTKNetTraffic
-unix:TARGET = ../../../lib/$$TTKTinyTools/TTKNetTraffic
+TARGET = TTKNetTraffic
 
 win32{
     LIBS += -lIphlpapi
@@ -42,15 +41,3 @@ HEADERS += \
 
 RESOURCES += \
     resource.qrc
-
-
-
-
-
-
-
-
-
-
-
-
